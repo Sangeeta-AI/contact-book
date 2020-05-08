@@ -1,0 +1,54 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+h1, h2{
+    font-weight: normal;
+}
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+#page-banner{
+    background: steelblue;
+    padding: 10px 0;
+}
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+#contact-list {
+    margin: 30px;
+}
+#contact-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+#contact-list li{
+    padding: 20px;
+    border-left: 5px solid palevioletred;
+    margin: 20px 10px;
+}
+#contact-list li:hover{
+    border-color: grey;
+}
